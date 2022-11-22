@@ -1,4 +1,4 @@
 FROM node:16.18.1
 RUN mkdir /src
-COPY hello.js /src
-CMD ["node", "/src/hello.js"]
+COPY helo.js /src
+CMD ["node", "/src/helo.js"]
